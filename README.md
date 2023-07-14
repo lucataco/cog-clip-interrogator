@@ -1,6 +1,6 @@
-# AiBaby-Pics Cog model
+# clip-interrogator Cog model
 
-This is an implementation of a custom model for generating baby pics, as a Cog model. [Cog packages machine learning models as standard containers.](https://github.com/replicate/cog)
+This is an implementation of the model [pharmapsychotic/clip-interrogator](https://replicate.com/pharmapsychotic/clip-interrogator) as a Cog model. [Cog packages machine learning models as standard containers.](https://github.com/replicate/cog)
 
 First, download the pre-trained weights:
 
