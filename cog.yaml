@@ -1,0 +1,17 @@
+build:
+  gpu: true
+  cuda: "11.8"
+  python_version: "3.9"
+  python_packages:
+    - "fairscale==0.4.12"
+    - "transformers==4.21.2"
+    - "ftfy==6.1.1"
+    - "torch==2.0.1"
+    - "torchvision==0.15.2"
+    - "open_clip_torch==2.7.0"
+    - "timm==0.4.12"
+    - "pycocoevalcap==1.2"
+  run:
+  - git clone https://github.com/salesforce/BLIP /root/blip
+
+predict: "predict.py:Predictor"
